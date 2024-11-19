@@ -1,7 +1,7 @@
-from http.server import HTTPServer, BaseHTTPRequestHandler
-from urllib.parse import quote, unquote
 import json
 import socket
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from urllib.parse import quote, unquote
 
 
 def extract_json_string(string: str) -> str:

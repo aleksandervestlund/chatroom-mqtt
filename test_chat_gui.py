@@ -1,4 +1,5 @@
 from typing import Any
+
 from chat_gui import ChatGui
 
 

@@ -1,8 +1,10 @@
 from __future__ import annotations
-import uuid
+
 import time
-from collections.abc import Sequence, Callable
+import uuid
+from collections.abc import Callable, Sequence
 from typing import Any
+
 import dearpygui.dearpygui as dpg
 
 
